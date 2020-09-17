@@ -1,0 +1,32 @@
+/* Form Section*/
+form {
+  display: block;
+  margin-top: 0em;
+}
+form input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc !important;
+  width: 100%;
+}
+.section {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+#contact-container {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+#contact-container button {
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  background-color: #53bac1;
+  padding: 16px;
+  color: #fff;
+  transition: all ease-in-out 300ms;
+}
+#contact-container button:hover {
+  background-color: #3f8d94;
+  color: #fff;
+}

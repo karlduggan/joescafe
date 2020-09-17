@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joes Cafe Brighton</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="burger-menu-style.css" />
+    <link rel="stylesheet" href="contactStyle.css" />
+
+    <link rel="stylesheet" href="drop-menu.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="navbar"></div>
+      <!-- Navbar End -->
+      <!-- Dropdown Menu -->
+      <div id="dropdown-menu" class="dropdown-menu-closed">
+        <ul>
+          <li>
+            <a class="drop-homebtn" href="#home" onclick="toggleBtn()">HOME</a>
+          </li>
+          <li>
+            <a class="drop-aboutbtn" href="#about" onclick="toggleBtn()"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a class="drop-portbtn" href="#menu" onclick="toggleBtn()">MENU</a>
+          </li>
+          <li>
+            <a class="drop-contactbtn" href="#ingredients" onclick="toggleBtn()"
+              >INGREDIENTS</a
+            >
+          </li>
+          <li>
+            <a class="drop-contactbtn" href="#contact" onclick="toggleBtn()"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Dropdown Menu End-->
+      <div class="header">
+        <!-- Burger Menu -->
+        <div id="burger-menu" class="burger-menu">
+          <div class="menu-btn" onclick="toggleBtn()">
+            <div class="menu-btn_burger"></div>
+          </div>
+        </div>
+        <!-- burger menu end -->
+        <div class="title">
+          <img src="./img/JoesCafeLogo.png" alt="" />
+        </div>
+        <!-- 
+        <div class="open-hours">
+          <div class="bold"><h3>Opening Hours</h3></div>
+          <h3>Wed - Sun from 9am to 1pm.</h3>
+        </div>
+        -->
+        <div class="overlay"></div>
+        <div id="slider">
+          <figure>
+            <img src="img/L1005680-min.jpg" alt="" />
+            <img src="img/L1005094-min.jpg" alt="" />
+            <img src="img/L1005116-min.jpg" alt="" />
+            <img src="img/L1005557-min.jpg" alt="" />
+            <img src="img/L1005680-min.jpg" alt="" />
+          </figure>
+        </div>
+      </div>
+      <!-- Header End -->
+
+      <div class="about">
+        <div class="content">
+          <h1>Welcome to Joe's Cafe</h1>
+          <a
+            href="https://www.google.com/search?q=joes+caffe&amp;rlz=1C1CHBF_en-GBGB908GB908&amp;oq=joes+caffe&amp;aqs=chrome..69i57j46j0j46l2j69i60l3.1621j0j4&amp;sourceid=chrome&amp;ie=UTF-8#lrd=0x4875857aa826caa7:0xae9dbacf2b37cdee,1,,,"
+            target="_blank"
+            >Nearly 300 Google reviews!</a
+          >
+          <p>
+            We are open Wed - Sun from 9am to 1pm. (Apologies but we do not take
+            bookings.) We have created screened booths for your safety and have
+            fully embraced all government guidance for your health and safety.
+            Julia, Andy and team welcome you.<br />
+            Eat in - inside, in our walled garden or in our 'bistro' front area.
+          </p>
+        </div>
+      </div>
+      <!-- Mid End -->
+      <!-- Menu -->
+      <div class="services">
+        <div class="content">
+          <h1>Our Menu</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            perferendis consequatur minus aspernatur inventore veniam odit nulla
+            magnam accusamus alias id, nam saepe mollitia quos excepturi
+            suscipit expedita laudantium cum?
+          </p>
+          <div class="foodDrinkMenu">
+            <div class="foodMenu">
+              <h1>Food</h1>
+              <div class="foodMenu-list">
+                <ul>
+                  <div class="bold"><h4>BREAKFASTS</h4></div>
+                  <li>
+                    BREAKFAST 1—sausage, bacon, beans, fried/poached egg & toast
+                    £6.50
+                  </li>
+                  <li>
+                    BREAKFAST 2—sausage , bacon, beans, poached/fried egg,
+                    mushrooms, fried potatoes & toast £9.00
+                  </li>
+                  <li>
+                    VEGGIE—veggie sausage, mushrooms, fried potatoes, slow
+                    roasted tomatoes , fried/poached egg beans & toast £9.00
+                  </li>
+                  <li>
+                    VEGAN—vegan sausage, mushrooms , beans, slow roasted
+                    tomatoes, fried potatoes & toast £9.00
+                  </li>
+                  <br />
+
+                  <div class="bold"><h4>FOR THE UNDER 12’S</h4></div>
+                  <li>
+                    LITTLE PIGLET—sausage, poached/fried egg, beans &toast £4.50
+                  </li>
+                  <li>
+                    LITTLE VEGGIE—veggie sausage( cumbereland) poached/fried
+                    egg, beans & toast £4.50
+                  </li>
+                  <li>
+                    LITTLE VEGAN –vegan sausage(Cumberland) beans, mushrooms &
+                    toast £4.50
+                  </li>
+                  <br />
+                  <div class="bold">
+                    <h4>
+                      HASHES –Classic American Style hash with fried potatoes,
+                      topped with a fried egg (meat & veggie only), chives and
+                      cheese (meat & veggie only) - REGULAR SIZE
+                    </h4>
+                  </div>
+                  <li>
+                    Meaty Hangover—with bacon, sausage, onion & mushrooms £9.00
+                  </li>
+                  <li>
+                    Spanish—Spanish chorizo, peppers, mushrooms, onions, paprika
+                    & chilli £9.50 (Veggie & Vegan alternative available— Vegan
+                    no egg but includes a side of beans)
+                  </li>
+                  <li>
+                    Vegan—vegan sausage, onions, mushrooms, beans and vegan
+                    cheese £9.50
+                  </li>
+                  <br />
+                  <li>*** For Under 12’s hashes at £6.50***</li>
+                  <br />
+                  <li>Crushed Avocado, Fresh Chilli & Poached Eggs £7.00</li>
+                  <br />
+                  <li>
+                    Lockdown Special—Spicy Breakfast Wrap—2 bacon, 2 fried eggs,
+                    cheese with homemade chill and garlic salsa in a warm wrap
+                    (available for veggie & vegan) £5.50
+                  </li>
+                  <br />
+                  <div class="bold"><h4>SANDWICHES</h4></div>
+                  <li>Bacon £3.50</li>
+                  <li>Sausage (2) £3.80</li>
+                  <li>Free Range Egg (2) £3.00</li>
+                  <li>Veggie Sausage (Leek & Stilton) £3.9</li>
+                  <li>Vegan Sausage (Cumberland) £3.90</li>
+                  <li>
+                    Bacon, Avocado, & Tomatoes (available for Veggie & Vegan)
+                    £4.90
+                  </li>
+                  <li>BLT/VLT £4.90</li>
+                  <li>Fish Finger, tartare and lettuce £4.50</li>
+                  <br />
+                  <div class="bold"><h4>EXTRAS</h4></div>
+                  <li>
+                    crushed avocado £3.00; extra sausage (V or VG) £1.80; Black
+                    Pudding £2.00; Slow Roasted tomatoes £2.00; Heinz Beans
+                    £1.00; Extra Egg Fried/Poached £1.00; Extra Bacon £1.00
+                    ;Gluten Free Bread £1.00
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!---------   ----------->
+            <div class="drinkMenu">
+              <h1>Drinks</h1>
+              <div class="drinkMenu-list">
+                <ul>
+                  <div class="bold"><h4>Hot Drinks</h4></div>
+                  <li>Mug of English Tea £1.50</li>
+                  <li>Pot of Tea (1 person) £2.00</li>
+                  <li>Flavoured Teas £2.00</li>
+                  <li>Espresso £1.50/£1.80</li>
+                  <li>Black Americano £1.90</li>
+                  <li>White Americano £2.00</li>
+                  <li>Flat White £2.30</li>
+                  <li>Cortado £2.30</li>
+                  <li>Cappuccino/Latte £2.50</li>
+                  <li>Mocha £2.60</li>
+                  <li>Hot Chocolate £2.60 (add marshmallows 20p/cream 30p)</li>
+                  <li>Chai Latte £2.60</li>
+                  <li>
+                    Extras: Syrup Shots 30p; Alternative Milks 30p (Oat, Soya,
+                    Almond, Coconut)
+                  </li>
+                  <br />
+                  <div class="bold"><h4>Cold Drinks</h4></div>
+                  <br />
+                  <h4>Smoothies</h4>
+                  <li>
+                    Tropical – Mango, Pineapple, Watermelon, Coconut Milk and
+                    Apple Juice £3.50
+                  </li>
+                  <li>
+                    Cherry Berry– Cherries and Berries mixed with our freshly
+                    squeezed O.J £3.50
+                  </li>
+                  <li>
+                    Ginger Zing– Kiwi, Mango, Pineapple, Ginger, Chia, Coconut
+                    Milk and Chilli £3.50
+                  </li>
+                  <br />
+                  <li>Joe’s Freshly Squeezed O. J. Reg £2.80; Lge £3.50</li>
+                  <br />
+                  <div class="bold">
+                    <h4>
+                      Milkshakes—made with real fruit, ice cream & topped with
+                      fresh cream (Reg size):
+                    </h4>
+                  </div>
+                  <li>
+                    Chocolate; Strawberry; Banana; Vanilla; Salted Caramel;
+                    Nutella £3.00
+                  </li>
+                  <li>
+                    VEGAN Milkshakes—as above but with our Vegan Ice Cream &
+                    topped with fresh cream (Reg size) please let us know
+                    Alternative Milk (Oat, Soya, Almond, Coconut) £3.00
+                  </li>
+                  <br />
+                  <li>Frobishers Apple Juice £2.20</li>
+                  <li>Coke, Diet Coke, Rio £1.20</li>
+                  <li>San Pellegrino Lemon/ Orange/Blood Orange £1.40</li>
+                  <li>Cawston Apple/Cawston Apple & Rhubarb £1.40</li>
+                  <li>Still Water/ Sparkling £1.00</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu End -->
+
+    <div class="ingredients">
+      <div class="content">
+        <h1>Our Ingredients</h1>
+        <p>
+          Our Ingredients and products are ethically sourced from local farms
+          and small bakeries.
+        </p>
+        <div>
+          <ul>
+            <li>
+              <div class="bold">Eggs</div>
+              Holmansbridge Farm, Lewes
+            </li>
+            <li>
+              <div class="bold">Meat</div>
+              Natural Farm, Lewes
+            </li>
+            <li>
+              <div class="bold">Veg</div>
+              Nick @ Fin and Farm, Lewes
+            </li>
+            <li>
+              <div class="bold">Veg Sausage</div>
+              Brighton Sausafe Co, Brighton
+            </li>
+            <li>
+              <div class="bold">Bread & Pastry</div>
+              Coburn & Baker, Hove
+            </li>
+            <li>
+              <div class="bold">Gluten Free Bread</div>
+              Coburn & Baker
+            </li>
+            <li>
+              <div class="bold">Cakes & Brownies</div>
+              Beckys Brownies, Brighton
+            </li>
+            <li>
+              <div class="bold">Free Range Milk</div>
+              Downsview Farm Sussex
+            </li>
+            <li>
+              <div class="bold">Salmon</div>
+              Springs, Ed Burton, Sussex
+            </li>
+            <li>
+              <div class="bold">Coffee</div>
+              Drurgs, Hove
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+      <div class="content">
+        <h1>Contact</h1>
+
+        <div id="contact-container">
+          <p>We love meeting new people!</p>
+          <form action="http://www.joescafe.uk/action_page.php" target="_blank">
+            <div class="section">
+              <label>Name</label>
+              <input
+                class="input-section"
+                type="text"
+                name="Name"
+                required=""
+              />
+            </div>
+            <div class="section">
+              <label>Email</label>
+              <input
+                class="input-section"
+                type="text"
+                name="Email"
+                required=""
+              />
+            </div>
+            <div class="section">
+              <label>Message</label>
+              <input
+                class="input-section"
+                type="text"
+                name="Message"
+                required=""
+              />
+            </div>
+            <button class="button-section" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Main-Container End -->
+    <!-- Map -->
+    <div class="findUs">
+      <div class="bold"><h1>Find Us</h1></div>
+      <h2>24 Upper Hamilton Rd, Brighton BN1 5DF</h2>
+    </div>
+
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="600"
+          height="400"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=24%20Upper%20Hamilton%20Rd%2C%20Brighton%20BN1%205DF&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        >
+        </iframe
+        ><a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a>
+      </div>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: right;
+          height: 400px;
+        }
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          height: 400px;
+        }
+      </style>
+    </div>
+    <!-- Map End -->
+    <div class="footer">
+      <div class="footer-icons">
+        <a href="https://www.facebook.com">
+          <img src="./icon/facebookIcon.png" alt=""
+        /></a>
+        <a href="https://www.instagram.com"
+          ><img src="./icon/instaIcon.png" alt="" />
+        </a>
+      </div>
+      <p>JoesCafe © 2020</p>
+    </div>
+    <!-- Footer End -->
+  </body>
+  <script src="script.js"></script>
+</html>

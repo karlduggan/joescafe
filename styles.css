@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  height: 10px;
+  background: #53bac1;
+  z-index: 100;
+  position: relative;
+}
+
+.header {
+  position: relative;
+  height: 60%;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+
+.title img {
+  position: relative;
+  z-index: 50;
+  background-color: transparent;
+  height: auto;
+  width: 200px;
+}
+.open-hours {
+  text-align: center;
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 4vw;
+  z-index: 50;
+  color: #fff;
+  bottom: 0px;
+  padding: 5px;
+  margin-bottom: 5rem;
+  margin-left: 19%;
+
+  border-bottom: solid #53bac1 4px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4;
+  z-index: 2;
+}
+
+/* ------------ Mid section -------------- */
+
+.about {
+  font-family: sans-serif;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.about a {
+  color: #53bac1;
+  font-size: 18px;
+}
+
+.services {
+  font-family: sans-serif;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.ingredients {
+  font-family: sans-serif;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.ingredients ul li {
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact {
+  font-family: sans-serif;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.content p {
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+.content h1 {
+  padding-bottom: 2rem;
+  color: #53bac1;
+}
+
+.findUs {
+  font-family: sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.findUs h2 {
+  padding-top: 1rem;
+  color: #4a4a4a;
+}
+
+.footer {
+  height: 100px;
+  background-color: #53bac1;
+}
+.footer p {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.ingredients {
+  line-height: 2rem;
+}
+.ingredients ul {
+  list-style: none;
+}
+
+.bold {
+  font-family: sans-serif;
+  color: #53bac1;
+  font-weight: bold;
+}
+
+.footer-icons {
+  text-align: center;
+}
+.footer-icons img {
+  height: auto;
+  width: 30px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+  z-index: 100;
+}
+
+/*    Food Menu List    */
+
+.foodDrinkMenu {
+  width: 100%;
+  text-align: center;
+}
+.foodMenu {
+  color: #4a4a4a;
+  padding-bottom: 2rem;
+}
+.foodMenu-list ul li {
+  list-style: none;
+  line-height: 2.5rem;
+}
+.drinkMenu {
+  color: #4a4a4a;
+  padding-bottom: 2rem;
+}
+.drinkMenu-list ul li {
+  list-style: none;
+  line-height: 2.5rem;
+}

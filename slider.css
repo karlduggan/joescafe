@@ -1,0 +1,63 @@
+@keyframes slider {
+  0%,
+  10% {
+    left: 0%;
+  }
+  20%,
+  30% {
+    left: -100%;
+  }
+  40%,
+  50% {
+    left: -200%;
+  }
+  60%,
+  70% {
+    left: -300%;
+  }
+  80%,
+  90% {
+    left: -400%;
+  }
+  100%,
+  110% {
+    left: -500%;
+  }
+}
+
+#slider {
+  /*
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+*/
+  /* Added */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 800px) {
+  #slider {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+#slider figure img {
+  width: 20%;
+
+  float: left;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  /* animation: 30s slider infinite; */
+  animation: 10s slider infinite;
+  -webkit-animation: 10s slider infinite;
+
+  background-repeat: no-repeat;
+}
